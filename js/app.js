@@ -13,3 +13,10 @@ while(x < otherFriends.length){
   x++
 }
 
+var dudes = ["Joe", "Paul", "Steve", "Rick"];
+
+//This is a for loop
+for(var i = dudes.length -1; i>=0; i--) {
+  console.log("Hello, my name is " + dudes[i])
+}
+
